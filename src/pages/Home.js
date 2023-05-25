@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import AppsIcon from "@mui/icons-material/Apps";
+import { Avatar } from "@mui/material";
+import { Search } from "./Search";
 function Home() {
   return (
     <>
@@ -12,16 +15,17 @@ function Home() {
           <div className="home__headerRight">
             <Link to="/gmail">Gmail</Link>
             <Link to="/images">images</Link>
+            <AppsIcon />
+            <Avatar />
           </div>
         </div>
-        {/* <AppsIcon/> */}
-        {/* <Avatar /> */}
 
         <div className="home__body">
           <img
             src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
             alt="logo"
           ></img>
+          <Search></Search>
         </div>
       </div>
     </>
