@@ -51,7 +51,7 @@ export function Search({ hideButtons = false }) {
               Google Search
             </Button>
             <Button className="search__buttonsHidden" variant="outlined">
-              I'm Feeling Lucky
+              Made By Himanshu Yadav
             </Button>
           </div>
         )}
